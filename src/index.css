@@ -35,7 +35,7 @@
   }
 
   h1 {
-    @apply text-3xl font-[iosBold];
+    @apply text-7xl select-none;
   }
 
   h2 {
@@ -45,4 +45,8 @@
   p {
     @apply leading-relaxed;
   }
+}
+
+* {
+  color: #f3f3f3;
 }
