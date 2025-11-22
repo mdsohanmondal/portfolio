@@ -7,7 +7,7 @@ import { navItems } from '#constants/data';
 
 const NavBar = () => {
   return (
-    <nav className="fixed top-0 left-0 font-[iosRegular] w-full bg-[#998fcd] px-5 py-2 select-none flex items-center justify-between">
+    <nav className="font-[iosRegular] w-full bg-[#998fcd] px-5 py-2 select-none flex items-center justify-between">
       <div className="flex items-center justify-center">
         <img src="/images/logo.svg" alt="logo" className="h-6 cursor-pointer" />
         <p className="text-lg font-medium mx-6">Sohan's Portfolio</p>

@@ -1,9 +1,10 @@
-import NavBar from './components/nav/NavBar';
+import { Home, NavBar } from '#components';
 
 const App = () => {
   return (
     <main className="w-full h-full">
       <NavBar />
+      <Home />
     </main>
   );
 };
