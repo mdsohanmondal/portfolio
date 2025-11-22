@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+@font-face {
+  font-family: iosBlack;
+  src: url('/fonts/SFNSDisplay-Black.otf');
+}
+
+@font-face {
+  font-family: iosBold;
+  src: url('/fonts/SFNSDisplay-Bold.otf');
+}
+@font-face {
+  font-family: iosLight;
+  src: url('/fonts/SFNSDisplay-Light.otf');
+}
+@font-face {
+  font-family: iosMedium;
+  src: url('/fonts/SFNSDisplay-Medium.otf');
+}
+@font-face {
+  font-family: iosRegular;
+  src: url('/fonts/SFNSDisplay-Regular.otf');
+}
+@font-face {
+  font-family: iosSemibold;
+  src: url('/fonts/SFNSDisplay-Black.otf');
+}
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-950 w-screen min-h-screen;
+  }
+
+  main {
+    @apply bg-[url('/images/wallpaper.jpg')] bg-center bg-cover bg-no-repeat w-screen min-h-screen;
+  }
+
+  h1 {
+    @apply text-3xl font-[iosBold];
+  }
+
+  h2 {
+    @apply text-2xl font-[iosSemibold];
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
